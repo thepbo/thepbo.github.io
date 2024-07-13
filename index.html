@@ -11,12 +11,48 @@
       font-size: 14px;
       margin: 0;
       padding: 0;
+      background-color: #f0f0f0;
     }
     .section-title {
       margin-top: 30px;
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      text-align: center;
     }
     .content {
       text-align: justify;
+      margin-bottom: 20px;
+    }
+    .portfolio-section {
+      margin-top: 40px;
+    }
+    .portfolio-section h2 {
+      margin-bottom: 20px;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .gallery img {
+      margin: 10px;
+      border: 5px solid #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      transition: transform 0.2s;
+      width: 100%;
+      max-width: 300px;
+    }
+    .gallery img:hover {
+      transform: scale(1.1);
+    }
+    .iframe-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .iframe-container iframe {
+      margin: 10px;
     }
   </style>
 </head>
@@ -140,8 +176,14 @@
         </div>
         <hr>
         <h3 class="section-title">Exhibitions</h3>
+        <div class="content">
+          <!-- Add details of exhibitions here -->
+        </div>
         <hr>
         <h3 class="section-title">Conferences</h3>
+        <div class="content">
+          <!-- Add details of conferences here -->
+        </div>
         <hr>
         <h3 class="section-title">Languages</h3>
         <div class="content">
@@ -151,10 +193,19 @@
         </div>
         <hr>
         <h3 class="section-title">Other Projects</h3>
-        <div class="content text-center">
+        <div class="content iframe-container">
           <iframe width="450" height="280" src="https://www.youtube.com/embed/o4hZz8u_UKw?si=MeytdNQSG37PhYPZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="mb-3"></iframe>
           <iframe width="450" height="280" src="https://www.youtube.com/embed/EK7v3LfeQ20?si=JY-TQh9exYoF_YNn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
+      </div>
+    </div>
+    <!-- New CSS Project Section -->
+    <div class="portfolio-section">
+      <h2 class="section-title">CSS Project</h2>
+      <div class="gallery">
+        <img src="CSS/IMG_20240605_192725.jpg" alt="CSS Project 1">
+        <img src="CSS/IMG_20240605_192801.jpg" alt="CSS Project 2">
+        <img src="CSS/IMG_20240605_193352.jpg" alt="CSS Project 3">
       </div>
     </div>
   </div>
