@@ -3,254 +3,308 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pablo Díaz - Artistic Portfolio</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <title>Pablo Díaz</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
   <style>
     body {
-      font-family: 'Segoe UI', Roboto, Arial, sans-serif;
-      background-color: #f0f0f0;
-      line-height: 1.6;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 14px;
       margin: 0;
-    }
-    .container {
-      max-width: 900px;
-      margin: auto;
-      padding: 20px;
+      padding: 0;
+      background-color: #f0f0f0;
     }
     .section-title {
+      margin-top: 30px;
       background-color: #333;
       color: white;
       padding: 10px;
       text-align: center;
-      margin-top: 30px;
     }
     .content {
+      text-align: justify;
+      margin-bottom: 20px;
+    }
+    .portfolio-section {
+      margin-top: 40px;
+    }
+    .portfolio-section h2 {
       margin-bottom: 20px;
     }
     .gallery {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      grid-gap: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
     }
     .gallery img {
-      width: 100%;
+      margin: 10px;
       border: 5px solid #fff;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
       transition: transform 0.2s;
+      width: 100%;
+      max-width: 300px;
     }
     .gallery img:hover {
       transform: scale(1.1);
     }
-    iframe {
-      width: 100%;
-      height: 300px;
-      margin-bottom: 20px;
+    .iframe-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .iframe-container iframe {
+      margin: 10px;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <header>
-      <h1 class="text-center mt-4">Pablo Díaz</h1>
-      <p class="text-center"><a href="mailto:p.tra.zuld@gmail.com">p.tra.zuld@gmail.com</a></p>
-    </header>
-    <hr>
-    <section class="content">
-      <h2>About</h2>
-      <img src="GENERAL/Screenshot from 2024-06-23 21-45-56.png" alt="Pablo Díaz" class="img-fluid mb-3">
-      <p>Pablo Díaz is a versatile professional in music composition, sound art, ceramics, and glass craftsmanship. With a Master's degree in Science and Art of Glass and Ceramics from NOVA School of Science and Technology, and a Master's in Sound Art from Universitat de Barcelona, Pablo combines technical expertise with creative skills.</p>
-      <!-- Add more content as needed -->
-    </section>
-    <hr>
-    <section>
-      <h2 class="section-title">Education</h2>
-      <div class="content">
-        <p><strong>MSc in Science and Art of Glass and Ceramics</strong><br>
-        NOVA School of Science and Technology, VICARTE<br>
-        2021 – 2024<br>
-        <em>Thesis: ...</em></p>
-        
-        <p><strong>MSc in Sound Art</strong><br>
-        Universitat de Barcelona<br>
-        2018 – 2019<br>
-        <em>Thesis: ...</em></p>
-        
-        <p><strong>BSc in Music with a specialization in Composition</strong><br>
-        Pontifícia Universidad Católica de Chile<br>
-        2009 – 2013<br>
-        <em>Thesis: ...</em></p>
-      </div>
-    </section>
-    <hr>
-    <section>
-      <h2 class="section-title">Experience</h2>
-      <div class="content">
-        <p><strong>Freelancer</strong><br>
-        Chile<br>
-        2013 – 2017<br>
-        Worked independently creating musical arrangements for schools and individuals, transcribing, editing, providing music theory lessons, offering tutoring, and composing soundtracks.</p>
-
-        <p><strong>Assistant Music Stimulation Teacher</strong><br>
-        Estefanie Fledderman ILR, Chile<br>
-        2014 – 2016</p>
-        
-        <p><strong>Artisanal Ceramic Products Salesperson</strong><br>
-        Cerámicas Terrablu, Chile<br>
-        2015 – 2016</p>
-
-        <p><strong>Assistant Teacher</strong><br>
-        Coral Group of Junta de Vecinos N20 Comuna de Ñuñoa, Chile<br>
-        2016</p>
-
-        <p><strong>Music Arranger</strong><br>
-        Colonias Musicales Musika Bai!, Euskadi<br>
-        2018</p>
-
-        <p><strong>Store Assistant</strong><br>
-        Smudy, Diagonal Mar, Barcelona<br>
-        2018 – 2019</p>
-
-        <p><strong>Music Teacher</strong><br>
-        Escola de Grups - DMS, Barcelona<br>
-        2019 – 2020</p>
-
-        <p><strong>Distance Education Instructor (Composition and Music Theory)</strong><br>
-        Remote<br>
-        2020 – 2021</p>
-
-        <p><strong>Collaborator</strong><br>
-        Chile, Música y Braille Foundation<br>
-        2021<br>
-        Collaborated on transcribing musical repertoire into Braille.</p>
-
-        <p><strong>Workshop Instructor</strong><br>
-        "The Sounds of Clay" Workshop in collaboration with "The Hood", UBBO, Amadora, Lisbon (PT)<br>
-        2022</p>
-      </div>
-    </section>
-    <hr>
-    <section>
-      <h2 class="section-title">Skills</h2>
-      <div class="content">
-        <p><strong>Advanced Knowledge of DAWs</strong><br>
-        Pro Tools, Reaper, Audacity, Adobe Audition, Cubase</p>
-
-        <p><strong>Knowledge of Audiovisual Software</strong><br>
-        Adobe Premiere, Adobe Illustrator, Photoshop, GIMP, Kdenlive</p>
-
-        <p><strong>Advanced Knowledge of Music Notation Software</strong><br>
-        Finale, Sibelius, MuseScore, LilyPond</p>
-
-        <p><strong>General Knowledge of Various Cross-Platform Software</strong><br>
-        MAX/MSP, Pure Data</p>
-
-        <p><strong>Knowledge of XRD and Colorimetry Software</strong><br>
-        X'Pert HighScore, OnShade QC</p>
-
-        <p><strong>Experience Working with Glass</strong><br>
-        Soda-lime glass (Cristallica and recycled bottles), borosilicate glass with various techniques (glass blowing, slumping, fusing, lampwork, cold work)</p>
-      </div>
-    </section>
-    <hr>
-    <section>
-      <h2 class="section-title">Portfolio</h2>
-      <div class="portfolio-section">
-        <h3 class="section-title">CSS</h3>
-        <div class="gallery">
-          <img src="CSS/IMG_20240605_192725.jpg" alt="CSS Project 1">
-          <img src="CSS/IMG_20240605_192801.jpg" alt="CSS Project 2">
-          <img src="CSS/IMG_20240605_193352.jpg" alt="CSS Project 3">
+  <div class="container my-4">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="content">
+          <h1>Pablo Díaz</h1>
+          <p>Email: <a href="mailto:p.tra.zuld@gmail.com">p.tra.zuld@gmail.com</a></p>
+          <p>Nationalities: Italian and Chilean</p>
+          <img src="GENERAL/Screenshot from 2024-06-23 21-45-56.png" alt="Pablo Díaz" class="img-fluid mb-3">
+          <p>Pablo Díaz is a versatile professional with a diverse background spanning music composition, sound art, and craftsmanship in ceramics and glass. With a Master's degree in Science and Art of Glass and Ceramics from NOVA School of Science and Technology, and a Master's in Sound Art from Universitat de Barcelona, Pablo combines technical expertise with creative skills.</p>
+          <p>Pablo has many years of experience in various roles including freelance music arrangement, teaching, and collaboration in sound art laboratories. His proficiency extends to advanced knowledge of digital audio workstations, audiovisual software, music notation, and cross-platform tools.</p>
+          <p>Additionally, Pablo has practical experience with glassworking techniques like glass blowing, fusing, and lampwork, and holds certifications in ceramics craftsmanship and pottery wheel techniques. He has collaborated with institutions like the University of Barcelona and Cerámica Terrablu, showcasing his commitment to artistic and technical innovation.</p>
+          <p>His passion for music, ceramics, and sound art fuels his continuous exploration and contribution to diverse projects and communities.</p>
+          <img src="GENERAL/Screenshot from 2024-06-23 21-54-18.png" alt="Pablo Díaz" class="img-fluid mb-3">
+          <img src="GENERAL/Screenshot from 2024-06-23 12-31-27.png" alt="Pablo Díaz" class="img-fluid mb-3">
         </div>
       </div>
-      <div class="portfolio-section">
-        <h3 class="section-title">Rego</h3>
-        <div class="gallery">
-          <img src="REGO/cacos_3.JPG" alt="REGO cacos_3">
-          <img src="REGO/cacos_5.JPG" alt="REGO cacos_5">
-          <img src="REGO/flazada_2.JPG" alt="REGO flazada_2">
-          <!-- Add more images as needed -->
+      <div class="col-md-6">
+        <hr>
+        <h3 class="section-title">Education</h3>
+        <div class="content">
+          <p><strong>MSc in Science and Art of Glass and Ceramics</strong><br>
+          NOVA School of Science and Technology, VICARTE<br>
+          2021 – 2024<br>
+          <em>Thesis: ...</em></p>
+          
+          <p><strong>MSc in Sound Art</strong><br>
+          Universitat de Barcelona<br>
+          2018 – 2019<br>
+          <em>Thesis: ...</em></p>
+          
+          <p><strong>BSc in Music with a specialization in Composition</strong><br>
+          Pontifícia Universidad Católica de Chile<br>
+          2009 – 2013<br>
+          <em>Thesis: ...</em></p>
         </div>
-      </div>
-      <div class="portfolio-section">
-        <h3 class="section-title">ASUCIACION</h3>
-        <div class="gallery">
-          <img src="SOUNDART/ASUCIACION/aerofono.JPG" alt="ASUCIACION aerofono">
-        </div>
-      </div>
-      <div class="portfolio-section">
-        <h3 class="section-title">SEGREDA</h3>
-        <div class="gallery">
-          <img src="SOUNDART/SEGREDA/flyer_15.JPG" alt="SEGREDA flyer_15">
-          <img src="SOUNDART/SEGREDA/flyer_18.JPG" alt="SEGREDA flyer_18">
-          <img src="SOUNDART/SEGREDA/flyer_2.JPG" alt="SEGREDA flyer_2">
-          <!-- Add more images as needed -->
-        </div>
-      </div>
-      <div class="portfolio-section">
-        <h3 class="section-title">TERRABLU</h3>
-        <div class="gallery">
-          <img src="TERRABLU/foto_10.JPG" alt="TERRABLU foto_10">
-          <img src="TERRABLU/foto_11.JPG" alt="TERRABLU foto_11">
-          <img src="TERRABLU/foto_12.JPG" alt="TERRABLU foto_12">
-          <!-- Add more images as needed -->
-        </div>
-      </div>
-      <div class="portfolio-section">
-        <h3 class="section-title">TONGKO</h3>
-        <div class="gallery">
-          <img src="TONGKO/foto_5.JPG" alt="TONGKO foto_5">
-          <img src="TONGKO/foto_6.JPG" alt="TONGKO foto_6">
-          <img src="TONGKO/foto_7.JPG" alt="TONGKO foto_7">
-          <!-- Add more images as needed -->
-        </div>
-      </div>
-      <div class="portfolio-section">
-        <h3 class="section-title">VABARROS</h3>
-        <div class="gallery">
-          <img src="VABARROS/Foto 18.JPG" alt="VABARROS Foto 18">
-          <img src="VABARROS/Foto 19.JPG" alt="VABARROS Foto 19">
-          <img src="VABARROS/Foto 20.JPG" alt="VABARROS Foto 20">
-          <!-- Add more images as needed -->
-        </div>
-      </div>
-    </section>
-    <hr>
-    <section>
-      <h2 class="section-title">Other Projects</h2>
-      <div class="content">
-        <h3>Council of Designers of the Textile and Garment Industry in Rancagua</h3>
-        <iframe src="https://www.youtube.com/embed/o4hZz8u_UKw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <h3>Fighting for Dignity in Santiago</h3>
-        <iframe src="https://www.youtube.com/embed/EK7v3LfeQ20" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-    </section>
-    <hr>
-    <section>
-      <h2 class="section-title">Exhibitions</h2>
-      <div class="content">
-        <p><strong>SEGREDA</strong><br>
-        Dec 2023 – Feb 2024<br>
-        "Cultural Festival in Chile"<br>
-        Junta de Vecinos Comuna de Ñuñoa, Santiago, Chile</p>
+        <hr>
+        <h3 class="section-title">Experience</h3>
+        <div class="content">
+          <p><strong>Freelancer</strong><br>
+          Chile<br>
+          2013 – 2017<br>
+          Worked independently creating musical arrangements for schools and individuals, transcribing, editing, providing music theory lessons, offering tutoring, and composing soundtracks.</p>
 
-        <p><strong>International Exhibition</strong><br>
-        Museum of Contemporary Art in Barcelona, 2024</p>
+          <p><strong>Assistant Music Stimulation Teacher</strong><br>
+          Estefanie Fledderman ILR, Chile<br>
+          2014 – 2016</p>
+          
+          <p><strong>Artisanal Ceramic Products Salesperson</strong><br>
+          Cerámicas Terrablu, Chile<br>
+          2015 – 2016</p>
+
+          <p><strong>Assistant Teacher</strong><br>
+          Coral Group of Junta de Vecinos N20 Comuna de Ñuñoa, Chile<br>
+          2016</p>
+
+          <p><strong>Music Arranger</strong><br>
+          Colonias Musicales Musika Bai!, Euskadi<br>
+          2018</p>
+
+          <p><strong>Store Assistant</strong><br>
+          Smudy, Diagonal Mar, Barcelona<br>
+          2018 – 2019</p>
+
+          <p><strong>Music Teacher</strong><br>
+          Escola de Grups - DMS, Barcelona<br>
+          2019 – 2020</p>
+
+          <p><strong>Distance Education Instructor (Composition and Music Theory)</strong><br>
+          Remote<br>
+          2020 – 2021</p>
+
+          <p><strong>Collaborator</strong><br>
+          Chile, Música y Braille Foundation<br>
+          2021<br>
+          Collaborated on transcribing musical repertoire into Braille.</p>
+
+          <p><strong>Workshop Instructor</strong><br>
+          "The Sounds of Clay" Workshop in collaboration with "The Hood", UBBO, Amadora, Lisbon (PT)<br>
+          2022</p>
+        </div>
+        <hr>
+        <h3 class="section-title">Skills</h3>
+        <div class="content">
+          <p><strong>Advanced Knowledge of DAWs</strong><br>
+          Pro Tools, Reaper, Audacity, Adobe Audition, Cubase</p>
+
+          <p><strong>Knowledge of Audiovisual Software</strong><br>
+          Adobe Premiere, Adobe Illustrator, Photoshop, GIMP, Kdenlive</p>
+
+          <p><strong>Advanced Knowledge of Music Notation Software</strong><br>
+          Finale, Sibelius, MuseScore, LilyPond</p>
+
+          <p><strong>General Knowledge of Various Cross-Platform Software</strong><br>
+          MAX/MSP, Pure Data</p>
+
+          <p><strong>Knowledge of XRD and Colorimetry Software</strong><br>
+          X'Pert HighScore, OnShade QC</p>
+
+          <p><strong>Experience Working with Glass</strong><br>
+          Soda-lime glass (Cristallica and recycled bottles), borosilicate glass with various techniques (glass blowing, slumping, fusing, lampwork, cold work)</p>
+        </div>
+        <hr>
+        <h3 class="section-title">Other Activities</h3>
+        <div class="content">
+          <p><strong>Collaborator</strong><br>
+          Sound Art Laboratory at the University of Barcelona and "Taller Baschet" (ESP)</p>
+          
+          <p><strong>Collaborator</strong><br>
+          Cerámica Terrablu (SCL)</p>
+        </div>
+        <hr>
+        <h3 class="section-title">Certifications</h3>
+        <div class="content">
+          <p>╸ Craftsmanship in Ceramics - Registered practitioner (Government of Chile, 2022)</p>
+          <p>╸ Plaster mold making for ceramics and pottery wheel (Cencal, Portugal, 2024)</p>
+          <p>╸ Pottery Wheel Techniques (Cencal, Portugal, 2024)</p>
+        </div>
+        <hr>
+        <h3 class="section-title">Exhibitions</h3>
+        <div class="content">
+          <!-- Add details of exhibitions here -->
+        </div>
+        <hr>
+        <h3 class="section-title">Conferences</h3>
+        <div class="content">
+          <!-- Add details of conferences here -->
+        </div>
+        <hr>
+        <h3 class="section-title">Languages</h3>
+        <div class="content">
+          <p><strong>Fluent:</strong> Spanish, English, Portuguese, Catalan, Italian</p>
+          <p><strong>Intermediate:</strong> French</p>
+          <p><strong>Basics:</strong> Turkish, German, Russian</p>
+        </div>
+        <hr>
+        <h3 class="section-title">Other Projects</h3>
+        <div class="content iframe-container">
+          <iframe width="450" height="280" src="https://www.youtube.com/embed/o4hZz8u_UKw?si=MeytdNQSG37PhYPZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="mb-3"></iframe>
+          <iframe width="450" height="280" src="https://www.youtube.com/embed/EK7v3LfeQ20?si=JY-TQh9exYoF_YNn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
       </div>
-    </section>
-    <hr>
-    <section>
-      <h2 class="section-title">Languages</h2>
-      <div class="content">
-        <p><strong>Spanish</strong> - Native</p>
-        <p><strong>English</strong> - Advanced</p>
-        <p><strong>Catalan</strong> - Intermediate</p>
-        <p><strong>Portuguese</strong> - Basic</p>
+    </div>
+    <!-- New CSS Project Section -->
+    <div class="portfolio-section">
+      <h2 class="section-title">CSS</h2>
+      <div class="gallery">
+        <img src="CSS/IMG_20240605_192725.jpg" alt="CSS Project 1">
+        <img src="CSS/IMG_20240605_192801.jpg" alt="CSS Project 2">
+        <img src="CSS/IMG_20240605_193352.jpg" alt="CSS Project 3">
       </div>
-    </section>
-    <hr>
-    <footer class="text-center mt-4 mb-4">
-      <p>&copy; 2024 Pablo Díaz. All rights reserved.</p>
-    </footer>
+    </div>
+    <div class="portfolio-section">
+      <h2 class="section-title">Rego</h2>
+      <div class="gallery">
+        <img src="REGO/cacos_3.JPG" alt="REGO cacos_3">
+        <img src="REGO/cacos_5.JPG" alt="REGO cacos_5">
+        <img src="REGO/flazada_2.JPG" alt="REGO flazada_2">
+        <img src="REGO/flazada.JPG" alt="REGO flazada">
+        <img src="REGO/garrafas_10.JPG" alt="REGO garrafas_10">
+        <img src="REGO/garrafas_11.JPG" alt="REGO garrafas_11">
+        <img src="REGO/garrafas_12.JPG" alt="REGO garrafas_12">
+        <img src="REGO/garrafas_1.JPG" alt="REGO garrafas_1">
+        <img src="REGO/garrafas_6.JPG" alt="REGO garrafas_6">
+        <img src="REGO/garrafas_7.JPG" alt="REGO garrafas_7">
+        <img src="REGO/pelfo_2.JPG" alt="REGO pelfo_2">
+        <img src="REGO/pelfo.JPG" alt="REGO pelfo">
+        <img src="REGO/perf0_1.JPG" alt="REGO perf0_1">
+        <img src="REGO/prato_mic.JPG" alt="REGO prato_mic">
+        <img src="REGO/QR_5.JPG" alt="REGO QR_5">
+        <img src="REGO/QR_7.JPG" alt="REGO QR_7">
+        <img src="REGO/QR_8.JPG" alt="REGO QR_8">
+        <img src="REGO/QR_AZUL.JPG" alt="REGO QR_AZUL">
+        <img src="REGO/QR_PRAt.JPG" alt="REGO QR_PRAt">
+        <img src="REGO/vidlo.JPG" alt="REGO vidlo">
+      </div>      
+    </div>
+    <div class="portfolio-section">
+      <h2 class="section-title">ASUCIACION</h2>
+      <div class="gallery">
+        <img src="SOUNDART/ASUCIACION/aerofono.JPG" alt="CSS Project 1">
+      </div>
+    </div>
+    <div class="portfolio-section">
+      <h2 class="section-title">SEGREDA</h2>
+      <div class="gallery">
+        <img src="SOUNDART/SEGREDA/flyer_15.JPG" alt="SOUNDART SEGREDA flyer_15">
+        <img src="SOUNDART/SEGREDA/flyer_18.JPG" alt="SOUNDART SEGREDA flyer_18">
+        <img src="SOUNDART/SEGREDA/flyer_2.JPG" alt="SOUNDART SEGREDA flyer_2">
+        <img src="SOUNDART/SEGREDA/flyer7.JPG" alt="SOUNDART SEGREDA flyer7">
+        <img src="SOUNDART/SEGREDA/flyer_9.JPG" alt="SOUNDART SEGREDA flyer_9">
+        <img src="SOUNDART/SEGREDA/plinto_2.JPG" alt="SOUNDART SEGREDA plinto_2">
+        <img src="SOUNDART/SEGREDA/plinto_3.JPG" alt="SOUNDART SEGREDA plinto_3">
+        <img src="SOUNDART/SEGREDA/plinto_4.JPG" alt="SOUNDART SEGREDA plinto_4">
+      </div>
+    </div>
+    <div class="portfolio-section">
+      <h2 class="section-title">TERRABLU</h2>
+      <div class="gallery">
+        <img src="TERRABLU/foto_10.JPG" alt="TERRABLU foto_10">
+        <img src="TERRABLU/foto_11.JPG" alt="TERRABLU foto_11">
+        <img src="TERRABLU/foto_12.JPG" alt="TERRABLU foto_12">
+        <img src="TERRABLU/foto_13.JPG" alt="TERRABLU foto_13">
+        <img src="TERRABLU/foto_14.JPG" alt="TERRABLU foto_14">
+        <img src="TERRABLU/foto_15.JPG" alt="TERRABLU foto_15">
+        <img src="TERRABLU/foto_16.JPG" alt="TERRABLU foto_16">
+        <img src="TERRABLU/foto_17.JPG" alt="TERRABLU foto_17">
+        <img src="TERRABLU/foto_18.JPG" alt="TERRABLU foto_18">
+        <img src="TERRABLU/foto_19.JPG" alt="TERRABLU foto_19">
+        <img src="TERRABLU/foto_1.JPG" alt="TERRABLU foto_1">
+        <img src="TERRABLU/foto_20.JPG" alt="TERRABLU foto_20">
+        <img src="TERRABLU/foto_21.JPG" alt="TERRABLU foto_21">
+        <img src="TERRABLU/foto_22.JPG" alt="TERRABLU foto_22">
+        <img src="TERRABLU/foto_23.JPG" alt="TERRABLU foto_23">
+        <img src="TERRABLU/foto_24.JPG" alt="TERRABLU foto_24">
+        <img src="TERRABLU/foto_25.JPG" alt="TERRABLU foto_25">
+        <img src="TERRABLU/foto_26.JPG" alt="TERRABLU foto_26">
+        <img src="TERRABLU/foto_27.JPG" alt="TERRABLU foto_27">
+        <img src="TERRABLU/foto_2.JPG" alt="TERRABLU foto_2">
+        <img src="TERRABLU/foto_3.JPG" alt="TERRABLU foto_3">
+        <img src="TERRABLU/foto_4.JPG" alt="TERRABLU foto_4">
+        <img src="TERRABLU/foto_5.JPG" alt="TERRABLU foto_5">
+        <img src="TERRABLU/foto_6.JPG" alt="TERRABLU foto_6">
+        <img src="TERRABLU/foto_7.JPG" alt="TERRABLU foto_7">
+        <img src="TERRABLU/foto_8.JPG" alt="TERRABLU foto_8">
+        <img src="TERRABLU/foto_9.JPG" alt="TERRABLU foto_9">
+      </div>
+    </div>
+    <div class="portfolio-section">
+      <h2 class="section-title">VICARTE</h2>
+      <div class="gallery">
+        <img src="VICARTE/Foto_1.JPG" alt="VICARTE Foto_1">
+        <img src="VICARTE/Foto_2.JPG" alt="VICARTE Foto_2">
+        <img src="VICARTE/Foto_3.JPG" alt="VICARTE Foto_3">
+        <img src="VICARTE/Foto_4.JPG" alt="VICARTE Foto_4">
+        <img src="VICARTE/Foto_5.JPG" alt="VICARTE Foto_5">
+        <img src="VICARTE/Foto_n1.JPG" alt="VICARTE Foto_n1">
+        <img src="VICARTE/Foto_n2.JPG" alt="VICARTE Foto_n2">
+        <img src="VICARTE/Foto_n3.JPG" alt="VICARTE Foto_n3">
+        <img src="VICARTE/Foto_n5.JPG" alt="VICARTE Foto_n5">
+        <img src="VICARTE/glass_ceramics_tool.JPG" alt="VICARTE glass_ceramics_tool">
+        <img src="VICARTE/IMARGEM_2exb.JPG" alt="VICARTE IMARGEM_2exb">
+        <img src="VICARTE/PabloD-Crafthub-BlownGlassBubbles.JPG" alt="VICARTE PabloD-Crafthub-BlownGlassBubbles">
+        <img src="VICARTE/PabloD-Crafthub-BlownGlassCoils.JPG" alt="VICARTE PabloD-Crafthub-BlownGlassCoils">
+        <img src="VICARTE/PabloD-Crafthub-BorosilicateCondor.JPG" alt="VICARTE PabloD-Crafthub-BorosilicateCondor">
+        <img src="VICARTE/PabloD-Crafthub-BoroToyPiano.JPG" alt="VICARTE PabloD-Crafthub-BoroToyPiano">
+        <img src="VICARTE/vitro_1.JPG" alt="VICARTE vitro_1">
+      </div>
+    </div>
   </div>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
