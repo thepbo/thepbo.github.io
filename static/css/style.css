@@ -58,7 +58,7 @@ main {
 }
 
 .grid-container .grid-item {
-    background-color: white;
+    background-color: #f4f4f4;
     padding: 1em;
     border: 1px solid #f4f4f4;
 }
