@@ -49,9 +49,7 @@ main {
 }
 
 .grid-item {
-    background-color: white;
     padding: 1em;
-    border: 1px solid #ccc;
 }
 
 .grid-item img {
