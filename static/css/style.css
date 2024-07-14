@@ -67,3 +67,7 @@ main {
     max-width: 100%;
     height: auto;
 }
+
+footer {
+    background-color: #f4f4f4;
+}
