@@ -1,5 +1,3 @@
-/* Existing CSS */
-
 body {
     font-family: system-ui;
     margin: 0;
@@ -54,12 +52,11 @@ main {
     background-color: white;
     padding: 1em;
     border: 1px solid #ccc;
-    text-align: center; /* Center align text and images within the grid item */
 }
 
 .grid-item img {
-    max-width: 50%; /* Scale the width to 100% of the parent container */
-    height: auto;    /* Maintain the aspect ratio */
+    max-width: 100%;
+    height: auto;
 }
 
 footer {
