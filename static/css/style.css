@@ -18,7 +18,6 @@ nav ul {
     display: flex;
     justify-content: center;
     background-color: #444;
-    max-width: 600px;
 }
 
 nav ul li {
