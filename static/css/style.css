@@ -14,18 +14,17 @@ header {
 }
 
 .nav-container {
-    /* Adjust max-width to your desired width */
     margin: 50px 0 0 0;
-    /* Center the container horizontally */
+    text-align: center;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     background-color: #f4f4f4;
-    /* Adds a top margin of 10px */
+    margin-top: 10px;
 }
 
 nav ul li {
@@ -39,6 +38,8 @@ nav ul li a {
 
 main {
     padding: 2em;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .intro {
@@ -52,14 +53,20 @@ main {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1em;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
 }
 
-.grid-item {
+.grid-container .grid-item {
     background-color: white;
     padding: 1em;
     border: 1px solid #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.grid-container .grid-item h3 {
+    text-align: center;
+    margin-bottom: 1em;
 }
 
 .grid-item img {
@@ -67,7 +74,16 @@ main {
     height: auto;
 }
 
-footer {
+.footer {
     background-color: #f4f4f4;
     text-align: center;
+    padding: 1em 0;
+}
+
+.centered-line {
+    border: 0;
+    height: 1px;
+    background: #333;
+    width: 60%;
+    margin: 0 auto;
 }
