@@ -70,8 +70,7 @@ main {
 
 footer {
     font-family: system-ui;
-    background-color: #333;
-    color: white;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
     text-align: center;
-    padding: 1em 0;
 }
