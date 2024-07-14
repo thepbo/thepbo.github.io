@@ -57,10 +57,8 @@ main {
     text-align: center; /* Center align text and images within the grid item */
 }
 
-/* New CSS */
-
 .grid-item img {
-    max-width: 100%; /* Scale the width to 100% of the parent container */
+    max-width: 50%; /* Scale the width to 100% of the parent container */
     height: auto;    /* Maintain the aspect ratio */
 }
 
