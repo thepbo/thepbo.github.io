@@ -10,6 +10,14 @@ header {
     background-color: #333;
     color: white;
     text-align: center;
+    padding: 1em 0;
+}
+
+.nav-container {
+    max-width: 600px;
+    /* Adjust max-width to your desired width */
+    margin: 0 auto;
+    /* Center the container horizontally */
 }
 
 nav ul {
@@ -18,7 +26,6 @@ nav ul {
     display: flex;
     justify-content: center;
     background-color: #444;
-    max-width: 300px;
 }
 
 nav ul li {
