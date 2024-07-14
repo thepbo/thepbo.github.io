@@ -2,12 +2,12 @@ body {
     font-family: system-ui;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
 }
 
 header {
     font-family: system-ui;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
     color: white;
     text-align: center;
     padding: 1em 0;
@@ -23,7 +23,7 @@ nav ul {
     padding: 0;
     display: inline-flex;
     justify-content: center;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
     margin-top: 10px;
 }
 
@@ -40,7 +40,7 @@ main {
     padding: 2em;
     max-width: 1200px;
     margin: 0 auto;
-    background-color: #ffffff;
+    background-color: #f4f4f4;
 }
 
 .intro {
@@ -55,13 +55,13 @@ main {
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: #ffffff;
+    background-color: #f4f4f4;
 }
 
 .grid-container .grid-item {
-    background-color: #ffffff;
+    background-color: #f4f4f4;
     padding: 1em;
-    border: 1px solid #ffffff;
+    border: 1px solid #f4f4f4;
 }
 
 .grid-container .grid-item h3 {
@@ -72,11 +72,11 @@ main {
 .grid-item img {
     max-width: 100%;
     height: auto;
-    background-color: #ffffff;
+    background-color: #f4f4f4;
 }
 
 .footer {
-    background-color: #f4f4f4;
+    background-color: #ffffff;
     text-align: center;
 }
 
