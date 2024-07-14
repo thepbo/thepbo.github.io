@@ -66,14 +66,14 @@ footer {
     padding: 1em 0;
 }
 
-.project-detail {
+.image-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust the number of columns based on available space */
     gap: 10px; /* Add some space between images */
     text-align: center; /* Center align text and images */
 }
 
-.project-detail img {
+.image-grid img {
     width: 100%;
     height: auto;
     border: 1px solid #ccc; /* Optional: Add a border to the images */
