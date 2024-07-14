@@ -24,7 +24,8 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: center;
-    background-color: #ffffff;
+    background-color: #f4f4f4;
+    margin: 2;
 }
 
 nav ul li {
