@@ -67,10 +67,3 @@ main {
     max-width: 100%;
     height: auto;
 }
-
-footer {
-    font-family: system-ui;
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
-    text-align: center;
-}
