@@ -60,8 +60,7 @@ main {
 .grid-container .grid-item {
     background-color: white;
     padding: 1em;
-    border: 1px solid #ffffff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #f4f4f4;
 }
 
 .grid-container .grid-item h3 {
