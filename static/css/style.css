@@ -19,6 +19,15 @@ nav ul {
 
 nav ul li {
     margin: 0 1em;
+    padding: 5px;
+    /* Add padding for better visibility */
+    transition: background-color 0.3s ease;
+    /* Smooth transition for background color */
+}
+
+nav ul li:hover {
+    background-color: #f0f0f0;
+    /* Light gray background on hover */
 }
 
 nav ul li a {
@@ -32,4 +41,49 @@ nav ul li a {
     background: black;
     width: 800px;
     margin: 0 auto;
+}
+
+li a:hover .hover-text {
+    display: inline;
+}
+
+li a .hover-text {
+    font-size: smaller;
+    display: none;
+}
+
+li a:hover br,
+li a:hover .hover-text {
+    display: inline;
+}
+
+.container {
+    background-color: #f0f0f0;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4px;
+}
+
+.image-grid a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.image-grid img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .image-grid {
+        grid-template-columns: repeat(2, 1fr);
+        /* Two columns on smaller screens */
+    }
 }
