@@ -60,30 +60,13 @@ li a:hover .hover-text {
 .container {
     background-color: #f0f0f0;
     max-width: 1000px;
-    margin: 0 auto;
+    margin: auto;
+    padding-top: 0.5cm;
+    padding-bottom: 0.5cm;
+    padding-left: 0.5cm;
+    padding-right: 0.5cm;
     text-align: justify;
 }
 
-.image-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 4px;
-}
 
-.image-grid a {
-    display: block;
-    position: relative;
-    overflow: hidden;
-}
-
-.image-grid img {
-    width: 100%;
-    height: auto;
-}
-
-@media (max-width: 768px) {
-    .image-grid {
-        grid-template-columns: repeat(2, 1fr);
-        /* Two columns on smaller screens */
-    }
-}
+/* Review from here */
