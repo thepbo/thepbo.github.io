@@ -447,6 +447,9 @@ button:focus,
     background-color: #FFF;
     position: relative;
     z-index: 6;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    /* Adjust as needed */
 }
 
 .wrapper {
@@ -454,7 +457,7 @@ button:focus,
     padding: 0 25px;
     position: relative;
     z-index: 6;
-    margin-bottom: 396px;
+    margin-bottom: 50px;
 }
 
 
@@ -467,19 +470,20 @@ button:focus,
 .footer {
     background-color: rgb(238, 238, 238);
     position: fixed;
-    z-index: 1;
     width: 100%;
     bottom: 0;
     left: 0;
     right: 0;
-    padding-top: 5px;
-    padding-bottom: 20px;
+    padding-top: 2px;
+    padding-bottom: 10px;
     text-align: center;
     color: black;
     font-size: 17px;
     letter-spacing: 1px;
     font-weight: 500;
     font-family: 'Oranienbaum', serif;
+    z-index: 10;
+    /* Ensure this is higher than other elements */
 }
 
 .footer a {
