@@ -961,8 +961,8 @@ button:focus,
 }
 
 .max-width-video {
-    max-width: 50%;
-    height: auto;
+    width: 840;
+    height: 473;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
