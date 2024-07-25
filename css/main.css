@@ -476,9 +476,10 @@ button:focus,
     padding-bottom: 20px;
     text-align: center;
     color: black;
-    font-size: 15px;
+    font-size: 17px;
     letter-spacing: 1px;
-    font-weight: 500
+    font-weight: 500;
+    font-family: 'Oranienbaum', serif;
 }
 
 .footer a {
@@ -993,4 +994,17 @@ button:focus,
 .description {
     text-align: justify;
     font-size: 15px;
+}
+
+.section-explainer {
+    max-width: 700px;
+    /* Limit the width of the div */
+    color: black;
+    /* Set the text color */
+    text-align: justify;
+    /* Center the text inside the div */
+    margin: 0 auto;
+    /* Center the div horizontally */
+    overflow-x: hidden;
+    /* Corrected property to prevent horizontal overflow */
 }
