@@ -478,7 +478,7 @@ button:focus,
     color: black;
     font-size: 10px;
     letter-spacing: 1px;
-    font-weight: 400
+    font-weight: 1000
 }
 
 .footer a {
@@ -486,7 +486,7 @@ button:focus,
 }
 
 .footer a:hover {
-    color: #FFF
+    color: #001aff
 }
 
 .footer img {
@@ -580,7 +580,7 @@ button:focus,
     width: 100%;
     max-width: 700px;
     color: black;
-    text-align: justify;
+    text-align: left;
 }
 
 .wrapper-inner p {
@@ -950,4 +950,26 @@ button:focus,
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+
+/* Add this to your existing CSS */
+
+.main-menu ul li:hover .sub-menu {
+    display: block;
+}
+
+.sub-menu {
+    display: none;
+    list-style-type: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+.sub-menu li a {
+    color: #222222;
+    display: block;
+    font-size: 25px;
+    font-style: normal
 }
