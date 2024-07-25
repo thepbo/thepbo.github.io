@@ -454,7 +454,7 @@ button:focus,
     padding: 0 25px;
     position: relative;
     z-index: 6;
-    margin-bottom: 396px
+    margin-bottom: 396px;
 }
 
 
@@ -576,12 +576,26 @@ button:focus,
     max-width: 331px
 }
 
+.inner-left-cv {
+    float: left;
+    margin-left: 20%;
+    text-align: left;
+}
+
 .inner-right {
     float: right;
     width: 100%;
     max-width: 700px;
     color: black;
     text-align: left;
+}
+
+.inner-right-cv {
+    float: right;
+    color: black;
+    text-align: left;
+    max-width: 500px;
+    width: 100%;
 }
 
 .wrapper-inner p {
