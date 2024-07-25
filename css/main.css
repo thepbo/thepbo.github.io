@@ -973,3 +973,10 @@ button:focus,
     font-size: 25px;
     font-style: normal
 }
+
+.iframe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
