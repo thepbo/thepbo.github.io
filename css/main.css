@@ -1016,7 +1016,7 @@ button:focus,
 }
 
 .section-explainer {
-    max-width: 60%;
+    max-width: 700px;
     /* Limit the width of the div */
     color: black;
     /* Set the text color */
