@@ -192,25 +192,26 @@ button:focus,
 }
 
 .header.header-fixed-top .menu-expanded {
-    padding-top: 15px
+    padding-top: 15px;
+    color:red;
 }
 
 .header hgroup {
     padding: 0 15px;
     overflow: hidden;
-    float: left
+    float: left;
 }
 
 .header hgroup h1 {
     padding: 0;
     margin: 0;
-    float: left
+    float: left;
 }
 
 .header hgroup h1 a {
     display: block;
     max-width: 81px;
-    float: left
+    float: left;
 }
 
 .main-menu {
@@ -221,6 +222,7 @@ button:focus,
     top: 0px;
     right: 0px;
     z-index: 2;
+    letter-spacing: 15px; /*PB*/
 }
 
 .menu,
@@ -1008,6 +1010,7 @@ button:focus,
     font-size: 30px;
     overflow-x: none;
     text-align: center;
+    letter-spacing:10px;
 }
 
 .description {
@@ -1026,4 +1029,5 @@ button:focus,
     /* Center the div horizontally */
     overflow-x: hidden;
     /* Corrected property to prevent horizontal overflow */
+    letter-spacing: 2px;
 }
