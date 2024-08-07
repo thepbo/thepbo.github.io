@@ -1113,8 +1113,21 @@ figure{
 font-size:15px;
 } /*controles the text below the title in photos with animation*/
 
-.img-correction-PBO{
+
+
+img {
+    width: auto; /* Set your desired width */
+    height: 30%; /* Set your desired height */
+    object-fit: center; 
+    /* This ensures the image covers the given dimensions without distortion - dar uma olhada!!*/
+}
+
+.img-menu-PBO{
 width: auto;
 height: auto;
 }
 
+.img-line-PBO{
+width: 7.5vw;
+height: auto;
+}
