@@ -154,7 +154,7 @@ img {
 a {
     text-decoration: none;
     outline: none;
-    color: #222222;
+    color: #9badcf;
 }
 
 a:hover {
@@ -272,10 +272,12 @@ button:focus,
     position: relative;
     text-transform: uppercase;
     font-size: 14px;
-    letter-spacing: 4px;
+    letter-spacing: 7px;
+    margin-top:22px;
     color: #222222;
     background-color: white;
 }
+/*menu e icono*/
 
 .menu {
     transition: all 0.40s ease-out;
@@ -431,6 +433,7 @@ button:focus,
     z-index: 1;
     transition: all 0.400s;
     transition-delay: 0.370s;
+    opacity: 0.8;
 }
 
 .main-menu ul li {
@@ -527,7 +530,7 @@ button:focus,
 ========================================================================== */
 
 .footer {
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(242,242,242);
     position: fixed;
     width: 100%;
     bottom: 0;
@@ -590,9 +593,15 @@ button:focus,
 }
 
 .copy-right {
+    font-size:15px;
     padding-top: 14px;
+    letter-spacing: 6px;
 }
 
+.mail-to {
+    padding-top: 5px;
+    letter-spacing: 4px;
+}
 .padding-top {
     padding-top: 16px
 }
@@ -718,6 +727,10 @@ button:focus,
 
 .details-image {
     margin-bottom: 80px
+}
+
+.image-transparent{
+opacity: 0.7;
 }
 
 
@@ -1087,3 +1100,21 @@ button:focus,
     /* Corrected property to prevent horizontal overflow */
     letter-spacing: 2px;
 }
+
+
+figcaption h2{
+font-size:17px;
+letter-spacing:3px;
+}
+
+/*controles the titles of animations*/
+
+figure{
+font-size:15px;
+} /*controles the text below the title in photos with animation*/
+
+.img-correction-PBO{
+width: 30px;
+height: 17.5vw;
+}
+
