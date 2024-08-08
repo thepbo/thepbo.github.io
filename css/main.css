@@ -193,7 +193,7 @@ button:focus,
 
 .header.header-fixed-top .menu-expanded {
     padding-top: 15px;
-    color:red;
+    color: red;
 }
 
 .header hgroup {
@@ -214,36 +214,36 @@ button:focus,
     float: left;
 }
 
-.header-title-PBO-special{
-	color: #343434;
-	text-align: center;
-	font-size: 70px;
-	letter-spacing: 45px;
-	margin-left: 5px;
-	padding-left: 30px;	
-}
-.header-subtitle-PBO-special{
-	color: #A8A2A1;
-	text-align: center;
-	font-size: 16px;
-	letter-spacing: 10px;		
+.header-title-PBO-special {
+    color: #343434;
+    text-align: center;
+    font-size: 70px;
+    letter-spacing: 45px;
+    margin-left: 5px;
+    padding-left: 30px;
 }
 
-.header-legendtitle-PBO-special{
-	color: #343434;
-	text-align: left;
-	font-size: 16px;
-	letter-spacing: 7px;
-	padding-left: 20px;		
-}
-.header-legend-PBO-special{
-	color: #343434;
-	text-align: left;
-	font-size: 16px;
-	letter-spacing: 7px;		
+.header-subtitle-PBO-special {
+    color: #A8A2A1;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 10px;
 }
 
+.header-legendtitle-PBO-special {
+    color: #343434;
+    text-align: left;
+    font-size: 16px;
+    letter-spacing: 7px;
+    padding-left: 20px;
+}
 
+.header-legend-PBO-special {
+    color: #343434;
+    text-align: left;
+    font-size: 16px;
+    letter-spacing: 7px;
+}
 
 .main-menu {
     background-color: white;
@@ -253,7 +253,8 @@ button:focus,
     top: 0px;
     right: 0px;
     z-index: 2;
-    letter-spacing: 15px; /*PB*/
+    letter-spacing: 15px;
+    /*PB*/
 }
 
 .menu,
@@ -273,10 +274,12 @@ button:focus,
     text-transform: uppercase;
     font-size: 14px;
     letter-spacing: 7px;
-    margin-top:22px;
+    margin-top: 22px;
     color: #222222;
     background-color: white;
 }
+
+
 /*menu e icono*/
 
 .menu {
@@ -506,8 +509,6 @@ button:focus,
     margin-left: 5%;
     padding-top: 5%;
     max-width: 90%;
-    
-    
 }
 
 .image-wrapper-PBO {
@@ -522,7 +523,6 @@ button:focus,
 }
 
 
-
 /* ==========================================================================
 
 	Footer
@@ -530,7 +530,7 @@ button:focus,
 ========================================================================== */
 
 .footer {
-    background-color: rgb(242,242,242);
+    background-color: rgb(242, 242, 242);
     position: fixed;
     width: 100%;
     bottom: 0;
@@ -593,7 +593,7 @@ button:focus,
 }
 
 .copy-right {
-    font-size:15px;
+    font-size: 15px;
     padding-top: 14px;
     letter-spacing: 6px;
 }
@@ -602,6 +602,7 @@ button:focus,
     padding-top: 5px;
     letter-spacing: 4px;
 }
+
 .padding-top {
     padding-top: 16px
 }
@@ -668,6 +669,7 @@ button:focus,
     text-align: left;
     max-width: 500px;
     width: 100%;
+    text-align: justify;
 }
 
 .wrapper-inner p {
@@ -729,8 +731,8 @@ button:focus,
     margin-bottom: 80px
 }
 
-.image-transparent{
-opacity: 0.7;
+.image-transparent {
+    opacity: 0.7;
 }
 
 
@@ -1079,7 +1081,7 @@ opacity: 0.7;
     font-size: 30px;
     overflow-x: none;
     text-align: center;
-    letter-spacing:10px;
+    letter-spacing: 10px;
 }
 
 .description {
@@ -1101,33 +1103,36 @@ opacity: 0.7;
     letter-spacing: 2px;
 }
 
-
-figcaption h2{
-font-size:17px;
-letter-spacing:3px;
+figcaption h2 {
+    font-size: 17px;
+    letter-spacing: 3px;
 }
+
 
 /*controles the titles of animations*/
 
-figure{
-font-size:15px;
-} /*controles the text below the title in photos with animation*/
+figure {
+    font-size: 15px;
+}
 
 
+/*controles the text below the title in photos with animation*/
 
 img {
-    width: auto; /* Set your desired width */
-    height: 30%; /* Set your desired height */
-    object-fit: center; 
+    width: auto;
+    /* Set your desired width */
+    height: 30%;
+    /* Set your desired height */
+    object-fit: center;
     /* This ensures the image covers the given dimensions without distortion - dar uma olhada!!*/
 }
 
-.img-menu-PBO{
-width: auto;
-height: auto;
+.img-menu-PBO {
+    width: auto;
+    height: auto;
 }
 
-.img-line-PBO{
-width: 7.5vw;
-height: auto;
+.img-line-PBO {
+    width: 7.5vw;
+    height: auto;
 }
