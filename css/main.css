@@ -1084,6 +1084,16 @@ button:focus,
     letter-spacing: 10px;
 }
 
+.section-title-subtitle {
+    font-family: 'Oranienbaum', serif;
+    color: #000000;
+    font-weight: 100;
+    font-size: 22px;
+    overflow-x: none;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
 .description {
     text-align: justify;
     font-size: 15px;
