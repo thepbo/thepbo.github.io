@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta
+      name="viewport"
+      content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"
+    />
+
+    <link rel="shortcut icon" href="images/thumbnail.png" type="image/x-icon" />
+
+    <title>C-Gabirú</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/collab-styles.css" />
+  </head>
+
+  <body>
+    <!--
+    To DO - colocar detalle en botón interactivo
+    -->
+
+    <!-- Menu-->
+    <nav class="navbar fixed-top p-2 pbo-solid">
+      <div class="container-fluid">
+        <a
+          class="navbar-brand pbo-font-styling pbo-special-font"
+          href="/index.html"
+          >PBO-CDB-TZUL</a
+        >
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <img src="../imgs/icons/icono4.png" class="icono-menu" alt="">
+          </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <img class="px-2" src="../imgs/logo_vidrio.png" alt="" />
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">PBO</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+
+          <div class="offcanvas-body">
+            <!--Menu Items-->
+            <ul
+              class="navbar-nav justify-content-end flex-grow-1 pe-3 pbo-font-styling-menu fw-bolder"
+            >
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/cv.html">CV</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/thepbo.html">Glass</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/tzul.html">Ceramics</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/cdb.html">Clay</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/research.html">Research</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Collaborations
+                </a>
+                <ul class="dropdown-menu pbo-font-styling-menu-sub">
+                  <li>
+                    <a class="dropdown-item" href="../pages/collaboration.html"
+                      >General</a
+                    >
+                  </li>
+                  <hr class="dropdown-divider" />
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="../pages/colectivo-gabiru.html"
+                      >Colectivo-Gabirú</a
+                    >
+                  </li>
+                  <hr class="dropdown-divider" />
+                  <li>
+                    <a class="dropdown-item" href="../pages/cacos.html"
+                      >Colectivo C.A.C.O.S</a
+                    >
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../pages/debruits.html"
+                      >Debruits</a
+                    >
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../pages/other_collab.html"
+                      >Other Collaborations</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex mt-3" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <div class="container-fluid mt-5 pt-4">
+        <h1 class="text-center text-dark fs-1 p-3">Colectivo Gabirú</h1>
+
+       <h2 class="text-center">|FRESTA|</h2>
+
+        <div class="card">
+   
+
+          <img src="../imgs/REGO/foto14.JPG" class="img-fluid" alt="" />
+          <p class="text-center text-dark fs-6">
+            -Try the QR CODE with or without the cursor on it-
+          </p>
+
+                    <p class="text-center text-dark fs-6">
+            -Or visit our <a href="https://gabirucoletivo.github.io/">Website</a> -
+          </p>
+        </div>
+
+        <div class="row row-cols-1">
+          <div class="col col-md-1 col-lg-2"></div>
+          <div class="col col-md-9 col-lg-8 mx-auto">
+            <p class="m-4 p-4 fw-bold fs-5">
+              According to the dictionary, "Fresta", a Portuguese word, is a
+              narrow opening that allows the passage of light and air; a slit, a
+              gap or simply a small opening in a wall or roof for ventilation
+              and lighting. Considering these contexts, one could add: "Fresta"
+              is also the gap that invites a curious look and sharpens the
+              imagination for discoveries.</p>
+              <p class="m-4 p-4 fw-bold fs-5">
+                When the Colectivo Gabirú entered the
+              Bairro do Rego (Lisbon) for the first time, they observed it with
+              the surprise of a stranger's senses. On an aimless walk, its
+              members collected the region's peculiarities and sketched out a
+              scenario about the past and the near future in conjecture. What
+              would the hustle and bustle of scaffolding between the traditional
+              buildings mean? Or the trail of noise left behind by the tireless
+              planes and trains? There are numerous questions that have aroused
+              the group's interest in this place.
+              </p>  
+              
+              <p class="m-4 p-4 fw-bold fs-5">
+                The Lisbon City Council's
+              Artistic Residency for Technological and Multimedia Arts
+              facilitated the deepening of this first contact and brought them
+              closer to the multiculturalism of the residents and the life of
+              the neighborhood by providing a three-month studio space in Rua
+              Augusto Abelaria for the conception of works and group meetings.
+              "Fresta" is an exhibition by Coletivo Gabirú, made up of Pablo
+              Díaz, Thaynã Targa and Fabio Curi. It is the result of the
+              Artistic Residency for Technological and Multimedia Art - LAAR,
+              offered by the Câmara Municipal de Lisboa.
+              </p>
+            </p>
+          </div>
+          <div class="col col-md-1 com-lg-2"></div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Gallery -->
+      <section class="container-fluid p-">
+        <h5 class="text-center p-5 pbo-font-styling">Show | Teatro Avenidas</h5>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 p-3 g-4">
+          <div class="col">
+            <div class="card p-4">
+              <img
+                src="../imgs/REGO/foto14.JPG"
+                class="card-img-top rounded"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Samples stored in glass</h5>
+                <p class="card-text">Bairro do Rego's excerpts</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card p-4">
+              <img
+                src="../imgs/COLLABORATIONS/foto_1.JPG"
+                class="card-img-top rounded"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Samples stored in glass</h5>
+                <p class="card-text">Bairro do Rego's excerpts</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card p-4">
+              <img
+                src="../imgs/REGO/foto3.JPG"
+                class="card-img-top rounded"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Samples stored in glass</h5>
+                <p class="card-text">Bairro do Rego's excerpts</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card p-4">
+              <img
+                src="../imgs/REGO/foto4.JPG"
+                class="card-img-top rounded"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Samples stored in glass</h5>
+                <p class="card-text">Bairro do Rego's excerpts</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card p-4">
+              <img
+                src="../imgs/REGO/foto5.JPG"
+                class="card-img-top rounded"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Samples stored in glass</h5>
+                <p class="card-text">Bairro do Rego's excerpts</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card p-4">
+              <img
+                src="../imgs/REGO/foto13.JPG"
+                class="card-img-top rounded"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Samples stored in glass</h5>
+                <p class="card-text">Bairro do Rego's excerpts</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card p-4">
+              <img
+                src="../imgs/REGO/foto15.JPG"
+                class="card-img-top rounded"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Samples stored in glass</h5>
+                <p class="card-text">Bairro do Rego's excerpts</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card p-4">
+              <img
+                src="../imgs/REGO/foto6.JPG"
+                class="card-img-top rounded"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Azulejo-Rave</h5>
+                <p class="card-text">
+                  Digital representation in sound of azulejo's patterns
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card p-4">
+              <img
+                src="../imgs/REGO/foto2.JPG"
+                class="card-img-top rounded"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Ceramic QR Code exercices with different techniques
+                </h5>
+                <p class="card-text">Digital storage of audiovisual samples</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card p-4">
+              <img
+                src="../imgs/REGO/foto7.JPG"
+                class="card-img-top rounded"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Improvisation with found objects</h5>
+                <p class="card-text">
+                  Exploring the sound of materials in real time
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card p-4">
+              <img
+                src="../imgs/REGO/foto8.JPG"
+                class="card-img-top rounded"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  QR Code Experiences with 3D printing and various techniques
+                </h5>
+                <p class="card-text">Tryouts in glass, ceramics and clay</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card p-4">
+              <img
+                src="../imgs/REGO/foto9.JPG"
+                class="card-img-top rounded"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  QR Code Experiences with 3D printing and various techniques
+                </h5>
+                <p class="card-text">Tryouts in glass, ceramics and clay</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card p-4">
+              <img
+                src="../imgs/REGO/foto10.JPG"
+                class="card-img-top rounded"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  QR Code Experiences with 3D printing and various techniques
+                </h5>
+                <p class="card-text">Tryouts in glass, ceramics and clay</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card p-4">
+              <img
+                src="../imgs/REGO/foto11.JPG"
+                class="card-img-top rounded"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  QR Code Experiences with 3D printing and various techniques
+                </h5>
+                <p class="card-text">Tryouts in glass, ceramics and clay</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card p-4">
+              <img
+                src="../imgs/REGO/foto12.JPG"
+                class="card-img-top rounded"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  QR Code Experiences with 3D printing and various techniques
+                </h5>
+                <p class="card-text">Tryouts in glass, ceramics and clay</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="pbo-solid-tenue mt-5 p-3">
+      <div class="container text-center text-dark p-3">
+        <p class="pbo-font-styling">&copy; PABLO DÍAZ | 2024</p>
+
+        <p class="p-3">
+          <a class="p-3" href="mailto:p.tra.zuld@gmail.com"
+            >p.tra.zuld@gmail.com</a
+          >
+        </p>
+
+        <a href="https://www.instagram.com/the_p.b.o/" target="_blank"
+          ><i class="fa fa-instagram" aria-hidden="true"></i
+        ></a>
+        <a href="https://www.instagram.com/t.z.u.l/" target="_blank"
+          ><i class="fa fa-instagram" aria-hidden="true"></i
+        ></a>
+        <a href="https://www.instagram.com/asuciacion.de.barri/" target="_blank"
+          ><i class="fa fa-instagram" aria-hidden="true"></i
+        ></a>
+      </div>
+    </footer>
+
+    <!--
+            Bootstrap
+            -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- 
+          Font awesome
+           -->
+
+    <script
+      src="https://kit.fontawesome.com/5676575e2b.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
