@@ -1,0 +1,120 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+
+
+body{
+font-family: "orbitron", sans-serif;
+padding:0;
+margin:0;
+}
+
+:root{
+    --pbo-solid: #e7e6e6;
+    --pbo-solid-font: #b1b1b1;
+    --pbo-font: #333;
+}
+
+
+
+/*styling*/
+.pbo-font-styling{
+    letter-spacing: .5rem;
+}
+
+.pbo-font-styling-menu li{
+    letter-spacing: .5rem;
+    transition: .2s ease-in-out;
+    padding: 1.2rem;
+}
+
+.pbo-font-styling-menu-sub li{
+    letter-spacing: .25rem;
+    transition: .2s ease-in-out;
+    padding: .5rem;
+}
+
+.pbo-font-styling-menu li:hover{
+    letter-spacing: .3rem;
+    opacity: 0.7;
+}
+.pbo-solid-font{
+    color: var(--pbo-solid-font)
+}
+
+
+.pbo-solid-tenue{
+    background-color: var(--pbo-solid);
+    opacity: 0.6;
+}
+
+.pbo-solid{
+    background-color: var(--pbo-solid);
+}
+
+.pbo-special-font{
+    color: var(--pbo-font);
+}
+
+/*video*/
+
+
+video{
+    width: 64%;
+    transition: .9s ease-in-out .1s;
+}
+
+video:hover{
+    opacity: 0.2;
+    cursor:pointer;
+}
+
+/*navbar-icon*/
+.icono-menu{
+    width: 3rem;
+    background:none;
+}
+
+.navbar-toggler{
+    border:none;
+}
+
+/*Cards*/
+
+.card{
+
+    opacity:0.95;
+    transition: .2s ease-in-out;
+    border: 0;
+
+}
+
+.card:hover{
+
+    opacity: 0.9;
+    transform: scale(.99);
+
+}
+
+/*links*/
+
+footer a{
+color: #333;
+transition: .5s ease-in-out .1s
+}
+
+footer a:hover{
+font-size: 1.2rem;
+background-color: #d6d6d6;
+color:#ffffff;
+border-radius: 9px;
+}
+
+
+/* basic resposnive*/
+@media (max-width: 600px){
+video[poster]{
+    width: 100%;
+}
+}

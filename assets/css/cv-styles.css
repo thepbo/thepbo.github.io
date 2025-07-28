@@ -1,0 +1,153 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+
+
+body{
+font-family: "orbitron", sans-serif;
+padding:0;
+margin:0;
+}
+
+:root{
+    --pbo-solid: #e7e6e6;
+    --pbo-solid-font: #b1b1b1;
+    --pbo-font: #333;
+}
+
+.foto-cv-head{
+    width: 65%;
+    object-fit: cover;
+    opacity: .9;
+
+}
+.cv-center{
+    display: flex;
+    justify-content: center;
+}
+
+/*styling*/
+/*fonts*/
+.pbo-font-styling{
+    letter-spacing: .3rem;
+}
+
+.pbo-font-styling-menu li{
+    letter-spacing: .5rem;
+    transition: .2s ease-in-out;
+    padding: 1.2rem;
+}
+
+.pbo-font-styling-menu-sub li{
+    letter-spacing: .25rem;
+    transition: .2s ease-in-out;
+    padding: .5rem;
+}
+
+.pbo-font-styling-menu li:hover{
+    letter-spacing: .3rem;
+    opacity: 0.7;
+}
+.pbo-solid-font{
+    color: var(--pbo-solid-font)
+}
+.pbo-special-font{
+    color: var(--pbo-font);
+}
+
+/*navbar-icon*/
+.icono-menu{
+    width: 3rem;
+    background:none;
+}
+
+.navbar-toggler{
+    border:none;
+}
+
+
+
+/*solids*/
+
+.pbo-solid-tenue{
+    background-color: var(--pbo-solid);
+    opacity: 0.6;
+}
+
+.pbo-solid{
+    background-color: var(--pbo-solid);
+}
+
+/*header*/
+
+header img{
+    opacity: 0.7;
+}
+
+/*main*/
+
+.foto-cv{
+    opacity: 0.78;
+    transition: .4s ease-in-out .1s;
+}
+
+.foto-cv:hover{
+    opacity: 0.48;
+}
+
+/*Section Skills*/
+
+.rigid-container{
+    height: 70vh;
+}
+
+.bar{
+    background-color: #fff;
+    border-radius: 5px;
+    transition: .2s ease-in-out;
+    height: 20rem;
+}
+
+.bar:hover{
+    background-color: #c1c1c1;
+    opacity: 0.2;
+}
+
+.narrow{
+    width: 40vw;
+}
+
+.button-field{
+    width: 70vw;
+    border: 1px solid #f1f1f1;
+
+}
+
+.flecha{
+    background-color: #333;
+    animation: tilting 3s ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes tilting{
+
+    0%{
+        opacity: 0;
+    }
+
+    to{
+        opacity: .2;
+    }
+    
+}
+
+@media(max-width: 780px ) {
+    
+    .narrow{
+        width: 75vw;
+    }
+
+
+    
+}
